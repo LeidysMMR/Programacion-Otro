@@ -1,0 +1,24 @@
+#e1 { background-color: brown;
+  
+}
+
+#e2 {
+    background-color: aqua;
+margin-top: 150px;
+}
+
+#e3 {
+    background-color: blueviolet;
+}
+#e4 {
+    background-color: chartreuse;
+}
+.elemento {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+#Cajas {
+    display: flex;
+}
