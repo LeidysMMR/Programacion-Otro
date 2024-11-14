@@ -1,22 +1,58 @@
-#e1 { background-color: brown;
-  
+body {
+    background-color: aliceblue;
+    background-image: url(https://impulso06.com/wp-content/uploads/2023/03/Los-10-lenguajes-de-programacion-mas-demandados-en-Espana-1.png);
+    background-repeat: no-repeat;
+}
+
+#e1 {
+    background-color: brown;
+    width: 250px;
+    height: 250px;
+    color: blanchedalmond;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    padding: 10px;
 }
 
 #e2 {
     background-color: aqua;
-margin-top: 150px;
+    margin-top: 150px;
+    width: 210px;
+    height: 210px;
+    color: blue;
+    border: 5px solid black;
+    padding: 10px
+}
+#e2:hover{
+    background-color: darkgreen;
 }
 
 #e3 {
+
     background-color: blueviolet;
+    width: 230px;
+    height: 230px;
+    color: azure;
+    border: 10px dotted yellow;
+    padding: 10px;
 }
+
 #e4 {
     background-color: chartreuse;
+    width: 220px;
+    height: 220px;
+    margin-top: 150px;
+    border: 5px solid black;
+    padding: 10px
 }
+
 .elemento {
     height: 150px;
     width: 150px;
     margin: auto;
+    display: flex;
+    border-width: 5px;
+
 }
 
 #Cajas {
