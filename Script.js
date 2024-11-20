@@ -1,6 +1,6 @@
 alert("Hola mundo");
-alert(1 + 9 + 41);
-alert("1+9+41");
+//alert(1 + 9 + 41);
+//alert("1+9+41");
 
 let saludo = "holaaaa";
 
@@ -11,17 +11,17 @@ saludo = "hola!";
 
 saludo = despedida;
 
-alert(1 + 2);//suma
-alert(1 - 2);//resta
-alert(1 / 2);//division
-alert(1 * 2);//multiplicacion
-alert(1 % 2);//resto de dividir
+//alert(1 + 2);//suma
+//alert(1 - 2);//resta
+//alert(1 / 2);//division
+//alert(1 * 2);//multiplicacion
+//alert(1 % 2);//resto de dividir
 
 let nombreusuario = "Leidys";
 
 alert(saludo + nombreusuario);
 
-const SALUDO_USUARIO = "hola de nuevo " + nombreusuario; //adios Leidys
+//const SALUDO_USUARIO = "hola de nuevo " + nombreusuario; //adios Leidys
 
 
 
@@ -48,7 +48,9 @@ console.log(5 == 5);
 console.log(5 != 7);
 
 console.log("a" > "b");
+console.log("cortazar" > "Navarro");
 
+//condicionales
 if (edad >= 18) {
     alert("eres mayor de edad");
 }
@@ -56,15 +58,43 @@ if (edad >= 18) {
 let premium = true;
 
 if (premium) {
-    console.log ("tiene cuenta privada");
+    console.log("tiene cuenta privada");
+    alert("bienvenido " + nombreusuario)
+} else if (edad >= 18) {
+    console.log("puedes crear una cuenta");
 }
+console.log("no puedes crear cuenta");
 
 //interactuar con html DOM
-document.getElementById("texto").innerHTML = "holaaaaaaaaaaaa "+nombreusuario;
-
-
+document.getElementById("texto").innerHTML = "holaaaaaaaaaaaa " + nombreusuario;
 document.getElementsByClassName("articulo")
 
+document.querySelector("p").innerHTML 
+
+document.body.querySelector("texto").innerHTML
+
+
+
+let texto = document.getElementById("texto");
+texto.innerHTML = "he guardado el selector en una variable";
+
 alert(saludo + nombreusuario);
+
+//Funciones de modos dia noche
+
+function saludar() {
+
+    alert("Bienvenido")
+}
+saludar();
+
+function modoNoche() {
+    document.body.style.backgroundColor = "black";
+
+}
+function modoDia() {
+    document.body.style.background = "white";
+}
+
 
 
