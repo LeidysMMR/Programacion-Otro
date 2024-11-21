@@ -11,6 +11,18 @@ saludo = "hola!";
 
 saludo = despedida;
 
+function createFlower() {
+    const flower = document.createElement('div');
+
+    flower.classList.add('flower');
+    flower.style.left = Math.random() * 100 + 'vw';
+    flower.style.animationDuration = Math.random() * 35 + 8 + 's';
+    document.body.appendChild(flower);
+    setTimeout(() => {
+        flower.remove();
+    }, 5000);
+}
+setInterval(createFlower, 100);
 //alert(1 + 2);//suma
 //alert(1 - 2);//resta
 //alert(1 / 2);//division
@@ -95,6 +107,7 @@ function modoNoche() {
 function modoDia() {
     document.body.style.background = "white";
 }
+
 
 
 

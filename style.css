@@ -1,7 +1,36 @@
 body {
+
     background-color: aliceblue;
     background-image: url(https://impulso06.com/wp-content/uploads/2023/03/Los-10-lenguajes-de-programacion-mas-demandados-en-Espana-1.png);
     background-repeat: no-repeat;
+}
+
+html {
+    cursor: url(file:///C:/Users/Alumna9/Desktop/CURSO%20PROGRAMACION%20LEIDYS/Github/Programacion-Otro/oso%20peluche_resized.webp), grab;
+}
+
+a {
+    cursor: url(file:///C:/Users/Alumna9/Desktop/CURSO%20PROGRAMACION%20LEIDYS/Github/Programacion-Otro/oso%20peluche_resized.webp), grab;
+}
+
+.flower {
+    position: absolute;
+    top: -50px;
+    width: 40px;
+    height: 40px;
+    background-image: url(https://w1.pngwing.com/pngs/727/716/png-transparent-school-pencil-book-drawing-cartoon-school-cartoon-animals-reading-coloring-book-thumbnail.png);
+    background-size: 100%;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    from {
+        transform: translateX(1vh);
+    }
+
+    to {
+        transform: translateY(1000vh);
+    }
 }
 
 #e1 {
@@ -23,7 +52,8 @@ body {
     border: 5px solid black;
     padding: 10px
 }
-#e2:hover{
+
+#e2:hover {
     background-color: darkgreen;
 }
 
@@ -59,127 +89,78 @@ body {
     display: flex;
 }
 
-#nombres{
-    display: flex; justify-content: space-around;   
-   }
-   
-   nav{
-   padding: 15px;
-   background: linear-gradient(#da6f93, #9198e5);
-   }
-    nav ul{
-   display: flex;
-   background-color: hotpink;
-   background-image:url(https://www.piensasolutions.com/blog/file/uploads/2017/10/bannerprogramacion.jpg);
-   /* list-style para quitar las viñetas o numeros de la lista */
-   list-style: none;
-   }
-   
-   /* margin espacio alrededor */
-   /* pading espacio interior  */
-
-   #inicio-imagen{
-    .corazon {
-        animation: latido 2s infinite;
-        background-color: rgb(199, 55, 218);
-        display: inline-block;
-        height: 50px;
-        margin: 0 10px;
-        top: 0;
-        transform: rotate(-45deg);
-        position: fixed; 
-        left: 90%; 
-        top: 85%;
-        width: 50px;
-      }
-      
-      .corazon:before,
-      .corazon:after {
-        content: "";
-        background-color: rgb(199, 55, 218);
-        border-radius: 50%;
-        height: 50px;
-        position: absolute;
-        width: 50px;
-      }
-      
-      .corazon:before {
-        top: -25px;
-        left: 0;
-      
-        
-      }
-      
-      .corazon:after {
-        left: 25px;
-        top: 0;
-        content: "inicio";
-        color: black;
-      }
-      
-      @keyframes latido {
-        0%
-        {
-          transform: scale( 1 )
-            rotate(-45deg);    
-        }
-        20%
-        {
-          transform: scale( 1.25 )
-            rotate(-45deg);  
-        }
-         40%
-        {
-          transform: scale( 1.5 )
-            rotate(-45deg);
-        }
-        
-    position: absolute;
-    animation: palpitar 2.2s linear infinite;
-    left: 75%;
-    top: 60%;
-    height: 150%;
-    width: 150px;
-    text-align: center;
-    margin-bottom: 50px;
-    animation: latido 6s infinite;
+#nombres {
+    display: flex;
+    justify-content: space-around;
 }
+
+nav {
+    padding: 15px;
+    background: linear-gradient(#da6f93, #9198e5);
+}
+
+nav ul {
+    display: flex;
+    background-color: hotpink;
+    background-image: url(https://www.piensasolutions.com/blog/file/uploads/2017/10/bannerprogramacion.jpg);
+    /* list-style para quitar las viñetas o numeros de la lista */
+    list-style: none;
+}
+
+
+/* margin espacio alrededor */
+/* pading espacio interior  */
+
+
+.corazon {
+    animation: latido 2s infinite;
+    background-color: rgb(199, 55, 218);
+    display: inline-block;
+    height: 50px;
+    margin: 0 10px;
+    top: 0;
+    transform: rotate(-45deg);
+    position: fixed;
+    left: 90%;
+    top: 85%;
+    width: 50px;
+}
+
 
 @keyframes latido {
     0% {
-        transform:  rotate(-45deg) scale(1.10);
-    }
-    80% {
-        transform:  rotate(-45deg) scale(1.10);
-    }
-    100% {
-        transform: rotate(-45deg) scale(0.0);
+        transform: scale(1) rotate(-45deg);
     }
 
-   }
-   
-   nav ul li {
-   /* text-tranfrom: para poner mayusculas o minusculas todas las letras del contenido */
-   text-transform: uppercase;   
-   margin: auto;
-   padding: 15px;
-   font-weight: 700;
-   /* font-weight para cambiar el grosor de la letra */
-   color: rgb(51, 6, 51);
-   background-color: #c05cc0;
-   }
-   
-   .submenu{
-   display: none;
-   position: absolute;
-   
-   background: linear-gradient(#e76dc5, #8b8eb4);
-   }
-   
-   nav ul li:hover{
-       background: linear-gradient(#e76dc5, #8b8eb4);
-   }
-   
-   nav ul li:hover ul{
-       display: block;
-   }
+    20% {
+        transform: scale(1.25) rotate(-45deg);
+    }
+
+    40% {
+        transform: scale(1.5) rotate(-45deg);
+    }
+}
+
+nav ul li {
+    /* text-tranfrom: para poner mayusculas o minusculas todas las letras del contenido */
+
+    margin: auto;
+    padding: 15px;
+
+    /* font-weight para cambiar el grosor de la letra */
+    color: rgb(51, 6, 51);
+    background-color: #c05cc0;
+}
+
+    /* {
+    background: linear-gradient(#e76dc5, #8b8eb4);
+} */
+
+
+nav ul li:hover {
+    background: linear-gradient(#e76dc5, #8b8eb4);
+}
+
+nav ul li:hover ul {
+    display: block;
+}
