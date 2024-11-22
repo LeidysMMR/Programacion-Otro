@@ -108,6 +108,13 @@ function modoDia() {
     document.body.style.background = "white";
 }
 
+function ingresar(){
+let inputusuario = document.querySelector("#nombre-usuario").value
+console.log(inputusuario);
+alert("hola de nuevo" +inputusuario);
+
+
+}
 
 
 
