@@ -1,4 +1,4 @@
-alert("Hola mundo");
+//alert("Hola mundo");
 //alert(1 + 9 + 41);
 //alert("1+9+41");
 
@@ -16,7 +16,7 @@ function createFlower() {
 
     flower.classList.add('flower');
     flower.style.left = Math.random() * 100 + 'vw';
-    flower.style.animationDuration = Math.random() * 35 + 8 + 's';
+    flower.style.animationDuration = Math.random() * 3 + 8 + 's';
     document.body.appendChild(flower);
     setTimeout(() => {
         flower.remove();
@@ -31,7 +31,7 @@ setInterval(createFlower, 100);
 
 let nombreusuario = "Leidys";
 
-alert(saludo + nombreusuario);
+//alert(saludo + nombreusuario);
 
 //const SALUDO_USUARIO = "hola de nuevo " + nombreusuario; //adios Leidys
 
@@ -90,7 +90,7 @@ document.body.querySelector("texto").innerHTML
 let texto = document.getElementById("texto");
 texto.innerHTML = "he guardado el selector en una variable";
 
-alert(saludo + nombreusuario);
+//alert(saludo + nombreusuario);
 
 //Funciones de modos dia noche
 
