@@ -64,14 +64,14 @@ console.log("cortazar" > "Navarro");
 
 //condicionales
 if (edad >= 18) {
-    alert("eres mayor de edad");
+    //alert("eres mayor de edad");
 }
 
 let premium = true;
 
 if (premium) {
     console.log("tiene cuenta privada");
-    alert("bienvenido " + nombreusuario)
+   // alert("bienvenido " + nombreusuario)
 } else if (edad >= 18) {
     console.log("puedes crear una cuenta");
 }
