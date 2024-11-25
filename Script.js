@@ -109,12 +109,22 @@ function modoDia() {
 }
 
 function ingresar(){
-let inputusuario = document.querySelector("#nombre-usuario").value
-console.log(inputusuario);
-alert("hola de nuevo" +inputusuario);
-
-
+let inputusuario = document.querySelector("#nombre-usuario")
+let generofemenino = document.getElementById("femenino")
+let generomasculino = document.getElementById("masculino")
 }
 
+if(generofemenino.checked){
+    alert("bienvenida "+inputusuario);
+}else if(generomasculino.checked){
+    alert("bienvenido "+inputusuario);
+}else{
+    alert("hola "+inputusuario);
+}
+    
 
+alert("hola de nuevo" +inputusuario);
+if(inputusuario == "Leidys"){
+
+}
 
